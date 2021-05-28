@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.menu_logo {
+    width: 45%;
+    text-align: center;
+
+}
+.menu_logo img{
+    width: 25%;
+    height: 100%;
+}
+.menu_menu {
+    width: 55%;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul.root > li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+ul.root > li > a {
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    line-height: 100px;
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+ul.root > li > a:hover {
+    background-color: rgb(241, 238, 28);
+    color: red;
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+}
+ul.submenu {
+    width: 250px;
+    background-color: rgb(241, 238, 28);
+    min-height: 100px;
+    display: none;
+    position: absolute;
+}
+ul.submenu li {
+    list-style: none;
+}
+ul.submenu li a:hover {
+    background-color: rgb(20, 236, 31);
+    color: red;
+    transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
+}
+ul.submenu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    line-height: 40px;
+    padding-left: 10px;
+}
+ul.root > li:hover ul.submenu{
+    display: block;
+}
+.content {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(0, rgba(120, 209, 161, 0.5), rgba(120, 209, 161, 0.5)),
+    url(crush.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.content_text{
+    width: 100%;
+    padding-top: 80px;
+    font-weight: bold;
+}
+.content_text button{
+    width: 230px;
+    height: 70px;;
+    background-color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px solid gray;
+    border-radius: 5px;
+}
+.content_text h1{
+    font-size: 50px;
+}
+.content_text p{
+    font-size: 25px;
+}
+.intro {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+.text_intro{
+    padding-top: 30px;
+    text-align: center;
+}
+.show {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.show_text {
+    width: 100%;
+    text-align: center;
+}
+.show_text img{
+    width: 20%;
+    padding-bottom: 10px;
+}
+.show_text h2{
+    font-weight: lighter;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.show_text p {
+    font-size: 25px;
+}
+.item1 img{
+    padding-left: 250px;
+}
+.item1 h2{
+    padding-left: 250px;
+}
+.item1 p{
+    padding-left: 250px;
+}
+.item3 img{
+    padding-right: 250px;
+}
+.item3 h2{
+    padding-right: 250px;
+}
+.item3 p{
+    padding-right: 250px;
+}
+.about {
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+}
+.about_text {
+    width: 50%;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.about_text h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+.about_text p{
+    font-size: 25px;
+}
+.about_img {
+    width: 50%;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 200px;
+}
+.about_img img {
+    width: 400px;
+    height: 250px;
+}
+.input {
+    width: 100%;
+    height: 120px;
+    background-color: #43cb83;
+    text-align: center;
+    line-height: 120px;
+}
+.input_email {
+    width: 600px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    
+    background-color: #43cb83;
+    margin-right: 30px;
+}
+.btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 62px;
+    border: 1px solid #43cb83;
+    font-size: 20px;
+    color: #43cb83;
+    margin-right: 250px;
+}
+.text {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+}
+.text_show {
+    width: 100%;
+    
+    padding-top: 20px;
+}
+.text_show h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.text1 h2{
+    padding-left: 150px;
+}
+.text1 p {
+    padding-left: 150px;
+}
+.text1 {
+    padding-left: 100px;
+}
+.text2 {
+    padding-left: 100px;
+}
+.text2 h2 {
+    padding-left: 40px;
+}
+.text2 p {
+    padding-left: 40px;
+}
+.text_show p {
+    font-size: 20px;
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #2a2a2a;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
